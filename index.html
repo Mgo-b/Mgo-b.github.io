@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | MGO</title>
+  <meta name="description" content="Portfolio professionnel sombre et futuriste de MGO." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">M.</span>
+        <div>
+          <h1>mgo</h1>
+          <p>Design & développement</p>
+        </div>
+      </div>
+      <button class="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+      <nav class="nav-menu">
+        <a href="#home">Accueil</a>
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="hero-copy">
+          <p class="eyebrow">Portfolio futuriste</p>
+          <h2>Je conçois des expériences numériques</h2>
+          <p class="hero-text">Création de solutions responsive, élégantes et performantes pour marques exigeantes.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Voir mes projets</a>
+            <a class="btn btn-secondary" href="#contact">Entrer en contact</a>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="panel-card panel-glow">
+            <span>Rôle</span>
+            <h3 id="typed-role">Développeur</h3>
+          </div>
+          <div class="panel-card panel-stats">
+            <div>
+              <strong>05+</strong>
+              <span>Années d'expérience</span>
+            </div>
+            <div>
+              <strong>20+</strong>
+              <span>Projets réalisés</span>
+            </div>
+          </div>
+          <div class="panel-card panel-wave">
+            <span>Technologies</span>
+            <p>React · TypeScript · CSS moderne · Animations</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section-block">
+        <div class="section-header">
+          <p class="eyebrow">À propos</p>
+          <h3>Une approche soignée, un code robuste et une direction visuelle moderne.</h3>
+        </div>
+        <div class="section-grid">
+          <article class="glass-card">
+            <h4>Mission</h4>
+            <p>Réaliser des interfaces qui inspirent confiance, fluidité et clarté, même dans les univers les plus innovants.</p>
+          </article>
+          <article class="glass-card">
+            <h4>Méthode</h4>
+            <p>Design system, performance mobile-first, composants réutilisables et animations subtiles pour une expérience premium.</p>
+          </article>
+          <article class="glass-card">
+            <h4>Perspectives</h4>
+            <p>Allier esthétique sombre et lisibilité lumineuse, avec une ambiance immersive et une navigation naturelle.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section-block section-alt">
+        <div class="section-header">
+          <p class="eyebrow">Projets</p>
+          <h3>Solutions digitales construites pour performer sur tous les écrans.</h3>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <span>Branding web</span>
+            <h4>Interface conceptuelle pour studio immersif</h4>
+            <p>Prototype responsive avec navigation fluide, micro-interactions et présentation de portfolio animée.</p>
+          </article>
+          <article class="project-card">
+            <span>Landing page</span>
+            <h4>Page produit pour une application futuriste</h4>
+            <p>Architecture modulaire, défilement intuitif et CTA optimisés pour les conversions.</p>
+          </article>
+          <article class="project-card">
+            <span>Dashboard</span>
+            <h4>Tableau de bord data-driven</h4>
+            <p>Visualisations claires, mise en page adaptative et zones d’action rapide pour les équipes.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section-block">
+        <div class="section-header">
+          <p class="eyebrow">Contact</p>
+          <h3>Prêt à collaborer sur votre prochain projet ?</h3>
+        </div>
+        <div class="contact-panel">
+          <p>Envoyez un message pour une collaboration, un audit UX ou une refonte digitale.</p>
+          <a class="btn btn-primary" href="mailto:contact@mgo.com">contact@mgo.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-bar">
+      <p>© <span id="year"></span> MGO. Portfolio personnel | Thème sombre & futuriste.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
