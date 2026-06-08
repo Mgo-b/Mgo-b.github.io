@@ -22,12 +22,11 @@ html {
 
 body {
   margin: 0;
-  width: 100vw;
   min-height: 100vh;
   background: radial-gradient(circle at top, rgba(110, 231, 255, 0.12), transparent 30%),
     radial-gradient(circle at bottom right, rgba(139, 92, 246, 0.12), transparent 20%),
     linear-gradient(180deg, #060711 0%, #05060d 100%);
-  color: var(--text);
+  color: red;
 }
 
 body::before {
